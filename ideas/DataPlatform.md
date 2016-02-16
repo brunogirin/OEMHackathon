@@ -34,8 +34,9 @@ to send data from devices to cloud platforms. Although there are emerging
 standards like [SenML](https://github.com/fluffy/senml-spec), they are not
 widely implemented, do not include any meta-data and delegate security to the
 underlying protocol, such as HTTPS or MQTT. In addition, SenML does not
-really support cummulative data series, such as kWh energy values that can be
-sent by energy monitoring equipment like OEM. Possible problems to tackle:
+really support cummulative data series, such as kWh energy values or pulse data
+that can be sent by energy monitoring equipment like OEM. Possible problems to
+tackle:
 
 1. __Basic payload__: propose a payload data format and build a simple code
    example.
@@ -72,6 +73,8 @@ Possible problems to tackle:
 3. __Configuration changes__: define an interaction process to handle
    configuration changes on the concentrator or data platform and have it
    pushed to the other party, e.g. the addition of a new sensor.
+4. __Sensor calibration__: define an interaction process to handle sensor
+   calibration on commissioning.
 
 In order not to re-invent the wheel, it might be good to take inspiration from
 TR-069 in terms of interaction while coming up with a more lightweight process
@@ -88,3 +91,31 @@ platform aware of devices that need attention. Possible problems to tackle:
    whether devices and sensors are operating correctly.
 2. __Alarms__: work out how alarms could be propagated to the data platform
    so that they can be treated centrally.
+
+## Notes
+
+### Why is energy and resource consumption data complicated?
+
+Energy and resource consumption differs from classic sensors in the fact that
+they are cummulative data series. If you draw 1 litre of water in 1 hour, then
+over 2 hours you draw 2 litres of water; this has a number of implications:
+
+* When rolling up data (e.g. going from an hourly resolution to daily), you
+  need to sum all data points rather than take the average;
+* A consumption value is only relevant if you also know the period over which
+  it was measured.
+
+One typical way to resolve that problem is to use a cummulative total count as
+a data series, that is a value that always increases, which is exactly how
+traditional energy meters or the mileage meter on a car work. To obtain the
+consumption for a given period you then need to calculate the difference
+between the value of the total count at the end of the period and its value at
+the beginning of the period. The consequence of this is that you always need
+an initial reference data point.
+
+Another way to count energy or resource usage is to count pulses, which is
+typically what happens with gas meters: each time a m3 of gas is used for
+instance, a new pulse is generated. This pulse is like saying "add 1" to the
+total count. This method has the same limits as the total count in terms of
+having an initial reference point. In addition, it has the downside that if
+you fail to receive any of the pulses, your resulting total count is incorrect.
