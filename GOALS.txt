@@ -14,6 +14,7 @@ Might be TX only or RX only for each.
 
 OpenTRV will take various OpenTRV boards and valves and some or all of:
 
+  * REVs: 1, 2, 7, 10, 11, 14
   * Bare RFM69 and RFM23B
   * Bare RFM95
   * Bare RN24483
