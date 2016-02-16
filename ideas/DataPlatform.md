@@ -42,10 +42,14 @@ sent by energy monitoring equipment like OEM. Possible problems to tackle:
 2. __Energy__: add support for cummulative data series such as energy.
 3. __Non repudiation__: it would be great if we could ensure that data comes
    from the expected sensor and hasn't been tampered with. Message signing
-   may provide a solution.
+   may provide a solution: see
+   [JSON Web Signature](https://tools.ietf.org/html/rfc7515)
 
 See [HyperCat](http://www.hypercat.io/) for ways to integrate SenML in wider
 contexts.
+
+See [CoAP](https://tools.ietf.org/html/rfc7252) for a lightweight protocol
+standard that natively uses UDP but can be proxied over HTTP.
 
 ### Commissioning
 
