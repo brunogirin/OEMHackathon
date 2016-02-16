@@ -1,0 +1,21 @@
+Possible goals for 2016/02/18.
+
+
+Interoperation of OEM equipment and servers with OpenTRV valves and/or hubs.
+
+Interop of OpenTRV equipment with (say) OpenHAB and/or EZHome, X-10, Lightwave,
+etc with new OTRadioLink channels and possibly different radio modules.
+Might be TX only or RX only for each.
+
+
+
+
+
+
+OpenTRV will take various OpenTRV boards and valves and some or all of:
+
+  * REVs: 1, 2, 7, 10, 11, 14
+  * Bare RFM69 and RFM23B
+  * Bare RFM95
+  * Bare RN24483
+  * X-10 RF module, eg RF bridge.
