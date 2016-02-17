@@ -3,8 +3,8 @@
 ### Why is energy and resource consumption data complicated?
 
 * RRDTool - well known project which has tackled cumulative data series
-  http://oss.oetiker.ch/rrdtool/
-  https://github.com/oetiker/rrdtool-1.x
+  * http://oss.oetiker.ch/rrdtool/
+  * https://github.com/oetiker/rrdtool-1.x
   
     Has the idea of: Data source types: GAUGE, COUNTER and others
     
@@ -21,17 +21,17 @@
     by adding an appropriate value to the result.
     
     Previously used in similar projects:
-    RRDtool and energy
-        http://www.jibble.org/currentcost/ 
-        http://knolleary.net/2010/12/26/power-graphs-again/ 
+    * RRDtool and energy
+        * http://www.jibble.org/currentcost/ 
+        * http://knolleary.net/2010/12/26/power-graphs-again/ 
 
-    RRDtool and MQTT
-        https://www.clusterfsck.io/blog/mqtt-to-rrd-daemon/
-        https://www.clusterfsck.io/blog/visualizing-rrd-data-using-nvd3/
-        http://www.futuretab.com/?p=207
+    * RRDtool and MQTT
+        * https://www.clusterfsck.io/blog/mqtt-to-rrd-daemon/
+        * https://www.clusterfsck.io/blog/visualizing-rrd-data-using-nvd3/
+        * http://www.futuretab.com/?p=207
 
-    User experience - RRDtool (subsequently replaced by Node-Red) MQTT, EmonCMS
-        https://github.com/flabbergast/rrd-pi-sensors
+    * User experience - RRDtool (subsequently replaced by Node-Red) MQTT, EmonCMS
+        * https://github.com/flabbergast/rrd-pi-sensors
  
  ### Device management
  
