@@ -7,6 +7,8 @@ Interop of OpenTRV equipment with (say) OpenHAB and/or EZHome, X-10, Lightwave,
 etc with new OTRadioLink channels and possibly different radio modules.
 Might be TX only or RX only for each.
 
+Learn about SIMPL and possibly build it into final Launchpad stack.
+
 Use of Node Red with OpenTRV.
 
 Umm, MQTT, we were going to do that weren't we!
