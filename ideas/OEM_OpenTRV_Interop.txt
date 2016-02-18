@@ -4,4 +4,11 @@ Suggestions:
 
  2) OpenTRV send/rcv JeeLib channel/frames.
 
- 3)
+
+
+
+
+ 3) (Ken B): BLE dongle (eg worn on the person) to act as personal thermostat override,
+    could have matching RX on REV7 I2CEXT, with (say) listening 1s in 15s or 120s.
+    (Eg exactly like the IR beacon suggested by Tony B.)
+
