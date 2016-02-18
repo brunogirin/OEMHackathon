@@ -22,6 +22,9 @@ Cornelia
 
  3) OpenTRV data -> OEM server
 
- 4) Backchannel
+ 4) Backchannel into OpenTRV
  
  5) General OEM interfacing
+
+ 6) BLE to OEM HOWTO
+
