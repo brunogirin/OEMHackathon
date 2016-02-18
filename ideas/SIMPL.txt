@@ -1,0 +1,7 @@
+2kB asm interpretter.
+
+Can go in bootloader.
+
+Look on Ken's blog.  sustburbia.blogger.com
+
+Talk about licensing.
