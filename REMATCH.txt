@@ -16,4 +16,8 @@ Aim to have done:
 
  3) Andrew Lindsay LoRa board talk to OEM.
 
- 
+ 4) Martin Harazinov 3-relay board driven by RFduino/RFM69/BLE.
+
+    Possibly also driven by a REV2/REVxxx
+
+
