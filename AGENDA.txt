@@ -26,5 +26,8 @@ Cornelia
  
  5) General OEM interfacing
 
- 6) BLE to OEM HOWTO  (micropower battery devices)
+ 6) BLE to OEM HOWTO  (micropower battery devices, costs, BOMs)
+ 
+    +iBeacon
 
+ 7) Security discussion
