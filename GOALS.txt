@@ -9,7 +9,7 @@ Might be TX only or RX only for each.
 
 Learn about SIMPL and possibly build it into final Launchpad stack.
 
-Use of Node Red with OpenTRV.
+Use of Node-RED with OpenTRV.
 
 Umm, MQTT, we were going to do that weren't we!
 
