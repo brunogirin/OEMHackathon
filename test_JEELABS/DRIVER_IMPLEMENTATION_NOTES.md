@@ -1,5 +1,7 @@
 #### JeeLabs / Open Energy Monitor OpenTRV channel and packet encoder/decoder
 
+Possible receiver unit: RFM69CW > USB serial via ATmega328 in USB stick format: http://www.digitalsmarties.net/products/jeelink
+
 The goal is to extend OTRadioLink library with channel that allows OpenTRV devices to communicate with Jeelabs,  OEM  and all other devices that use Jeelabs radio communications library. Library hides specifics of communication and packet format from the user, and eiter takes takes or returns complete payload from/to the application. In addition to payload, user has several flags available that might needed to acheve special goals. These flags are:
 
 * **dest** - if dest = true, we are sending o specific node. The default is  dest = false, meaning that packet is broadcat
