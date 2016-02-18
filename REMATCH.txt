@@ -22,4 +22,8 @@ Aim to have done:
 
     Possibly also driven by a REV2/REVxxx
 
+ 5) Winode 5
 
+    Send template to OpenTRV with Apache licence.
+
+    Drop I2CEXT V2 onto the board.
