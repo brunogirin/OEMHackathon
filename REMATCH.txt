@@ -12,4 +12,5 @@ Aim to have done:
   * Application neutral for interop
   * Runs on a microcontroller (eg ATmega328P)
 
- 2) 
+ 2) Interchangeable REV11 and emonTH, common design, cost reduction.
+
