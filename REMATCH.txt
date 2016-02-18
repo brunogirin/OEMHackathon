@@ -5,10 +5,11 @@ Aim to have done:
 
  1) OEM Secure Frame
 
-   Radio module neutral
-   Fits in a 64-byte frame
-   Authentication and encryption
-   Application neutral for interop
-   Runs on a microcontroller (eg ATmega328P)
+  * Gives OEM a secure over-the-air format.
+  * Radio module neutral
+  * Fits in a 64-byte frame
+  * Authentication and encryption
+  * Application neutral for interop
+  * Runs on a microcontroller (eg ATmega328P)
 
  2) 
