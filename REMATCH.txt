@@ -22,8 +22,15 @@ Aim to have done:
 
     Possibly also driven by a REV2/REVxxx
 
- 5) Winode 5
+ 5) nRF51/52 investigation.
+
+ 6) Winode 5
 
     Send template to OpenTRV with Apache licence.
 
     Drop I2CEXT V2 onto the board.
+
+ 7) 50x50 template
+
+ 8) September OSHCAMP
+
