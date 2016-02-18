@@ -18,6 +18,8 @@ Aim to have done:
 
  4) Martin Harazinov 3-relay board driven by RFduino/RFM69/BLE.
 
+    (41mm from relay to board edge)
+
     Possibly also driven by a REV2/REVxxx
 
 
