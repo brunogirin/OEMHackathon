@@ -25,3 +25,5 @@ OpenTRV will take various OpenTRV boards and valves and some or all of:
   * X-10 RF module, eg RF bridge.
 
 
+Key Management protocol interoperability
+
