@@ -23,3 +23,5 @@ OpenTRV will take various OpenTRV boards and valves and some or all of:
   * Bare RFM95
   * Bare RN24483
   * X-10 RF module, eg RF bridge.
+
+
