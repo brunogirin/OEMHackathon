@@ -1,0 +1,7 @@
+Suggestions:
+
+ 1) USB dongle with OpenTRV listener/sender (on OpenTRV channel) spitting out on serial.
+
+ 2) OpenTRV send/rcv JeeLib channel/frames.
+
+ 3)
