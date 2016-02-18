@@ -14,3 +14,6 @@ Aim to have done:
 
  2) Interchangeable REV11 and emonTH, common design, cost reduction.
 
+ 3) Andrew Lindsay LoRa board talk to OEM.
+
+ 
