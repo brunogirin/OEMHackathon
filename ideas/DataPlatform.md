@@ -34,13 +34,13 @@ to send data from devices to cloud platforms. Although there are emerging
 standards like [SenML](https://github.com/fluffy/senml-spec), they are not
 widely implemented, do not include any meta-data and delegate security to the
 underlying protocol, such as HTTPS or MQTT. In addition, SenML does not
-really support cummulative data series, such as kWh energy values or pulse data
+really support cumulative data series, such as kWh energy values or pulse data
 that can be sent by energy monitoring equipment like OEM. Possible problems to
 tackle:
 
 1. __Basic payload__: propose a payload data format and build a simple code
    example.
-2. __Energy__: add support for cummulative data series such as energy.
+2. __Energy__: add support for cumulative data series such as energy.
 3. __Non repudiation__: it would be great if we could ensure that data comes
    from the expected sensor and hasn't been tampered with. Message signing
    may provide a solution: see
@@ -97,7 +97,7 @@ platform aware of devices that need attention. Possible problems to tackle:
 ### Why is energy and resource consumption data complicated?
 
 Energy and resource consumption differs from classic sensors in the fact that
-they are cummulative data series. If you draw 1 litre of water in 1 hour, then
+they are cumulative data series. If you draw 1 litre of water in 1 hour, then
 over 2 hours you draw 2 litres of water; this has a number of implications:
 
 * When rolling up data (e.g. going from an hourly resolution to daily), you
@@ -105,7 +105,7 @@ over 2 hours you draw 2 litres of water; this has a number of implications:
 * A consumption value is only relevant if you also know the period over which
   it was measured.
 
-One typical way to resolve that problem is to use a cummulative total count as
+One typical way to resolve that problem is to use a cumulative total count as
 a data series, that is a value that always increases, which is exactly how
 traditional energy meters or the mileage meter on a car work. To obtain the
 consumption for a given period you then need to calculate the difference
