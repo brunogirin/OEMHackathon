@@ -9,4 +9,5 @@ Damon Hart-Davis
 Bruno Girin
 Michael Mills
 Jeremy Poulter
-
+Glyn Hudson
+Trystan Lea
