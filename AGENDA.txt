@@ -26,5 +26,5 @@ Cornelia
  
  5) General OEM interfacing
 
- 6) BLE to OEM HOWTO
+ 6) BLE to OEM HOWTO  (micropower battery devices)
 
