@@ -20,7 +20,7 @@ Cornelia
  
  2) OpenTRV overview
 
- 3) OpenTRV data -> OEM server
+ 3) OpenTRV data -> OEM server (from sensors and from valves)
 
  4) Backchannel into OpenTRV
  
@@ -32,10 +32,9 @@ Cornelia
 
  7) Security discussion
 
- 
- 
- 
- 
- 
- 
-MSP430
+
+
+
+
+
+
