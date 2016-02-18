@@ -14,3 +14,14 @@ Trystan Lea
 Mark Hill
 Cornelia 
 
+
+
+ 1) OEM overview
+ 
+ 2) OpenTRV overview
+
+ 3) OpenTRV data -> OEM server
+
+ 4) Backchannel
+ 
+ 5) General OEM interfacing
