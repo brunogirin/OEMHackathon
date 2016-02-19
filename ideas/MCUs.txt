@@ -1,2 +1,4 @@
 MSP430  30c+ cost, nice GPIOs, using Energia (equiv of Arduino IDE).
 
+Also M0+ ARM Atmel SAM D20E http://www.farnell.com/datasheets/1760447.pdf: 1.62V minimum.
+
