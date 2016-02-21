@@ -32,10 +32,3 @@ Deniz E
     +iBeacon
 
  7) Security discussion
-
-
-
-
-
-
-
