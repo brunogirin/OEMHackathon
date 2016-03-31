@@ -20,7 +20,7 @@ The general format is x|u where x is the name and u are the UCUM units.
 Non-UCUM units are used in some very common cases for brevity/clarity.
 Units are omitted entirely where not applicable eg device is uncalibrated.
 
-Meaning of the various JSOM fields in there, ie common ones:
+Meaning of the various JSON fields in there, ie common ones:
 
 L     light level 0--255 (uncalibrated)
 vC|%  valve movement Cumulative | %
